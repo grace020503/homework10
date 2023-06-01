@@ -11,6 +11,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int PrintStudent(){
+	char *name = "kim sieun";
+	char *id = "2021053007";
+	printf("-----[%s][%s]-----", name, id);
+}
 
 
 typedef struct node {
@@ -61,6 +66,8 @@ int main()
 	char command;
 	int key;
 	Node* head = NULL;
+
+	PrintStudent();
 
 	do{
 		printf("\n\n");
